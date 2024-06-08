@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+
+.CartItems {
+    margin: 100px 170px ;
+
+}
+
+.CartItems hr {
+    height: 3px;
+    background: white;
+    border: 0;
+}
+
+.CartItems-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+   
+}
+
+.CartItems-main p{
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 18px;
+    font-weight: 600;
+}

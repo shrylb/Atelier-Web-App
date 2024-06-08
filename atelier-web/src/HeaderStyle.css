@@ -1,0 +1,140 @@
+/* Import the Inknut Antiqua font */
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Apply the font to all text elements */
+body,
+h5,
+h6,
+p,
+a,
+li {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Inknut Antiqua', serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+#header {
+  height: 95px;
+  display: flex;
+  align-items: center;
+  padding: 1% 5%;
+  background-color: #FFFFFF;
+  box-shadow: 2px 2px 2px 1px #253B3B58;
+}
+
+#atelier-brand {
+  width: 20%;
+  align-items: center;
+}
+
+#navi {
+  width: 60%;
+}
+
+#header-icons {
+  width: 20%;
+  display: flex;
+}
+
+.logo {
+  width: 50%;
+  height: 100%;
+}
+
+.profile {
+  border-radius: 55%;
+  box-shadow: 1px 1px 1px 1px #253B3B58;
+}
+
+#profile-box {
+  width: 20%;
+  height: 20%;
+}
+
+#icons-main-container {
+  width: 50%;
+  margin-left: 10%;
+  margin-right: 5%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.icons {
+  width: 90%;
+  padding: 25%;
+}
+
+.icons-box {
+  position: relative;
+}
+
+.cart-count {
+  width: 25px;
+  height: 25px;
+  padding: 3px;
+  font-size: 12px;
+  border-radius: 15px;
+  position: absolute;
+  color: white;
+  text-align: center;
+  background-color: red;
+  top: 0;
+  right: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Center the navbar horizontally */
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 5%;
+  position: relative;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 100%;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  /* Add transition for smooth color change */
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+  color: #A96DA3;
+  /* Change the color to lavender when hovering or active */
+}
+
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}

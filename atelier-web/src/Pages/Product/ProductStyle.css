@@ -1,0 +1,132 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to the top */
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.artwork-container {
+  margin-right: 20px;
+  background-color: #BC7C9C;
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: flex-start; /* Align items to the top */
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%; /* Occupy half of the available space */
+  text-align: center;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: center; /* Align items vertically in the center */
+  align-items: flex-start; /* Align items to the left */
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%; /* Occupy half of the available space */
+}
+
+.description {
+  background-color: #BC7C9C; /* Yellow color */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px; /* Add space after the description */
+  width: 150%;
+}
+
+.artwork {
+  margin-bottom: 20px; /* Add space between artwork and other elements */
+}
+
+.artwork img {
+  max-width: 300%; /* Adjusted width to occupy full width of container */
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.artist-info {
+  display: flex;
+  align-items: center; /* Align items horizontally */
+  margin-bottom: 30px; /* Add space after the tags */
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  background-color: #ECD6D4; /* Blue color */
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.tags {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px; /* Add space after the tags */
+}
+
+.tag {
+  background-color: #ECD6D4; /* Green color */
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px; /* Add space between tags */
+}
+
+.price {
+  background-color: #7A5980; /* Purple color */
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px; /* Add space after the price */
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  background-color: #CF9893; /* Red color */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.availability {
+  margin-top: 20px;
+  padding: 0px 60px 60px 60px;
+}
+
+.available h3 {
+  margin: -50px 60px 50px 60px;
+}
+
+.availability h2 {
+  margin-bottom: 10px;
+}
+
+.availability-options {
+  display: flex;
+}
+
+.availability-option {
+  margin-right: 20px;
+  background-color: #BC7C9C;
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: flex-start; /* Align items to the top */
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%; /* Occupy half of the available space */
+  text-align: center;
+}
+
+.availability-option p {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,71 @@
+/* Import the Inknut Antiqua font */
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Apply the font to all text elements */
+body,
+h1,
+h2,
+h3,
+h5,
+h6,
+p,
+a,
+li {
+  font-family: 'Inknut Antiqua', serif;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: larger;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+#footer {
+  background-color: #E2C1BE;
+}
+
+#footer-main {
+  padding: 5% 7% 5% 7%;
+}
+
+#footer-head {
+  width: 25%;
+  background-color: transparent;
+}
+
+#footer-body {
+  display: flex;
+}
+
+#footer-navbar {
+  list-style: none;
+  width: 60%;
+  padding-left: 10%;
+  display: flex;
+}
+
+#footer-icons {
+  width: 40%;
+  display: flex;
+  padding-left: 10%;
+}
+
+.socmed {
+  width: 12%;
+  margin: 2%;
+}
+
+#footer-end {
+  height: 75px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  background-color: #3B3B58;
+}
+
+.text-links {
+  padding-left: 7%;
+  align-items: center;
+}

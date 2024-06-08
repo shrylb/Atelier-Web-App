@@ -1,0 +1,48 @@
+/* signup_style.css */
+
+/* @ SHERYLLLLLLL IF YOU SEE THIS
+disregard fileeee  
+ndi na neeeed */
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the container take the full height of the viewport */
+  }
+
+  /* body{
+    background-image: url(Pages/Signup/bg2.jpg);
+  } */
+  
+  .signup-form {
+    width: 350px; /* Set the width of the form */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  .signup-form header {
+    text-align: center; /* Center align the header */
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form .input-field {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .signup-form .submit {
+    width: 100%;
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 600px) {
+    .signup-form {
+      width: 90%; /* Adjust the width for smaller screens */
+    }
+  }
+  

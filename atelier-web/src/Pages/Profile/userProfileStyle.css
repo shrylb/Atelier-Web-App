@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* userProfileStyle.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.user-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.user-details {
+  text-align: center;
+}
+
+.user-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.user-username {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.user-stats {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.user-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.user-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.user-bio {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.user-bio p {
+  margin: 0;
+}
+
+.user-social-media {
+  margin-bottom: 20px;
+}
+
+.user-social-media img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.user-contact-info {
+  text-align: left;
+}
+
+.user-contact-info p {
+  margin: 5px 0;
+}
+
+/* Style for Text and Fonts */
+p {
+  font-size: small;
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#artist-name {
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 150%;
+  font-weight: 600;
+}
+
+#artist-username {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 110%;
+  font-weight: 400;
+}
+
+#artist-followers {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+}
+
+/* Style for Containers, Boxes, divs */
+#profile-banner {
+  width: 100vw;
+  height: 80vh;
+}
+
+#profile-cover {
+  width: 80dvw;
+  height: 40dvh;
+  margin: 3vh auto;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+img.cover-photo {
+  display: inline;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#profile-elements {
+  display: flex;
+  width: 80vw;
+  height: 20vh;
+  margin: 0 auto;
+}
+
+#profile-cont {
+  display: flex;
+  width: 50%;
+  height: 100%;
+
+}
+
+#profile-buttons {
+  width: 50%;
+  height: 100%;
+}
+
+#profile-picture {
+  width: 25%;
+  overflow: hidden;
+}
+
+img.profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+#profile-deets {
+  width: 75%;
+  line-height: 10px;
+  padding-left: 5%;
+  padding-top: 5%;
+  text-align: left;
+}
+
+/* Style for Buttons */
+.user-profile-btns {
+  width: 35%;
+  height: 25%;
+  border-radius: 5px;
+  margin-left: 5%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+  font-weight: 500;
+  color: #FFFFFF;
+  background-color: #875782;
+  border-color: transparent;
+}
+
+#profile-buttons {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.user-profile-btns:active {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.user-profile-btns:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+  border-color: #875782;
+}
